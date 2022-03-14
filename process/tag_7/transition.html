@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&amp;display=swap" rel="stylesheet">
+
+    <title>Example -- Absolute Position and Transform</title>
+
+    <style>
+
+        .zeile{
+            position:absolute;
+           top: 500px;
+           left: 500px;
+
+            font-size:5rem;
+            font-family: 'Montserrat', sans-serif;
+            color: brown;
+            transition: all 3s;
+            animation-name: animate;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+        }
+        .transform:hover .second{
+            transform:translateY(100px);
+
+        }
+        .transform:hover .third{
+            transform:translateY(200px);
+        }
+        .transform:hover .forth{
+            transform:translateY(300px);
+        }
+        .transform:hover .fifth{
+            transform:translateY(400px);
+        }
+        @keyframes animate {
+            0%{
+                transform:rotate(0deg)
+            }
+            100%{
+        transform: rotate(90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="transform">
+    <div class="zeile first">KEEP YOUR HEAD UP </div>
+    <div class="zeile second">KEEP YOUR HEAD UP </div>
+    <div class="zeile third">KEEP YOUR HEAD UP </div>
+    <div class="zeile forth">KEEP YOUR HEAD UP </div>
+    <div class="zeile fifth">KEEP YOUR HEAD UP </div>
+</div>
+
+
+</body>
+</html>
