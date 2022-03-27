@@ -272,8 +272,10 @@
         }
         
         .item {
+            grid-area: ;
             background-color: aqua;
-            grid-column: 2/11;
+            grid-column-start: 2;
+            grid-column-end: 10;
         }
         
         .dunkelrot {
@@ -285,7 +287,7 @@
         }
         
         .font-size-200 {
-            font-size: 12vw;
+            font-size: 550%;
         }
     </style>
 
@@ -296,7 +298,11 @@
 
     <div id="section1">
 
-        <div class="item1">
+        <div class="item dunkelrot font-size-200">
+
+        </div>
+
+        <div class="item dunkelrot font-size-200">
             SWEET DREAMS
         </div>
 
