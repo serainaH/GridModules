@@ -258,7 +258,7 @@
             grid-template-columns: repeat(10, 1fr);
             grid-template-rows: repeat(8, 1fr);
             width: 100vw;
-            height: 150vh;
+            height: 100vh;
             text-align: center;
             background-color: rgb(150, 0, 0);
         }
@@ -266,6 +266,7 @@
         .font-size-BIG {
             font-size: 11vw;
             font-weight: 700;
+            text-align: left;
         }
         
         .font-size-TO {
@@ -274,23 +275,71 @@
         }
         
         .itemSOME {
-            grid-column: 4/10;
+            grid-column: 5/10;
             grid-row: 1;
             height: 10vw;
-            background-color: aliceblue;
         }
         
         .itemTHEM {
-            grid-column: 4/10;
+            grid-column: 5/11;
             grid-row: 2;
             height: 10vw;
-            background-color: rgb(18, 98, 168);
         }
         
         .itemTO2 {
             grid-column: 3/9;
             grid-row: 2;
+            height: 20vw;
+        }
+        
+        .itemUSE {
+            grid-column: 7/9;
+            grid-row: 3;
             height: 30vw;
+        }
+        
+        .itemUSE2 {
+            grid-column: 7/11;
+            grid-row: 3;
+            height: 3vw;
+        }
+        
+        .itemUSE3 {
+            grid-column: 7/10;
+            grid-row: 3;
+            height: 3vw;
+        }
+        
+        .itemUSE4 {
+            grid-column: 7/10;
+            grid-row: 3;
+            height: 3vw;
+        }
+        
+        .font-size-USE {
+            font-size: 4vw;
+            font-weight: 800;
+            text-align: left;
+        }
+        
+        .grid-itemUSE {
+            position: relative;
+            bottom: 8vw;
+        }
+        
+        .grid-itemUSE2 {
+            position: relative;
+            bottom: 5vw;
+        }
+        
+        .grid-itemUSE3 {
+            position: relative;
+            bottom: 2vw;
+        }
+        
+        .grid-itemUSE4 {
+            position: relative;
+            bottom: -1vw;
         }
     </style>
 
@@ -390,12 +439,19 @@
         <div class="itemTO2 weiss font-size-TO">
             TO
         </div>
+        <div class="itemUSE  font-size-USE grid-itemUSE">
+            use you
+        </div>
+        <div class="itemUSE2  font-size-USE  grid-itemUSE2">
+            want to get used by you
+        </div>
+        <div class="itemUSE3  font-size-USE  grid-itemUSE3">
+            abuse you
+        </div>
+        <div class="itemUSE4  font-size-USE  grid-itemUSE4">
+            want to be abused
+        </div>
 
-
-        <h3 style="color:rgb(0, 0, 0);position: absolute;top:3150px;left: 1100px; font-size: 80px; ">use you </h3>
-        <h3 style="color:rgb(0, 0, 0);position: absolute;top:3220px;left: 1100px; font-size: 80px; text-align: justify;">want to get used by you </h3>
-        <h3 style="color:rgb(0, 0, 0);position: absolute;top:3290px;left: 1100px; font-size: 80px; ">abuse you </h3>
-        <h3 style="color:rgb(0, 0, 0);position: absolute;top:3360px;left: 1100px; font-size: 80px; ">be abused </h3>
 
 
     </DIV>
