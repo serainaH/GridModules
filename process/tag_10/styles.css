@@ -1,0 +1,296 @@
+@media only screen and (max-width: 600px) {
+    body {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    @font-face {
+        font-family: "League-Mono-Var";
+        src: url("/process/tag_7/LeagueMono-2.300/variable/TTF/LeagueMono-VF.ttf");
+    }
+    .section1 {
+        display: inline-grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+    }
+    .item1 {
+        display: inline-grid;
+        grid-column-start: 2;
+        grid-column-end: 12;
+        grid-row-start: 1;
+    }
+    .itemAreMade {
+        grid-column: 3/5;
+        grid-row-start: 1;
+    }
+    .grid-itemAreMAde {
+        position: relative;
+        top: 70%;
+    }
+    .itemWHO {
+        grid-column: 5/7;
+        grid-row-start: 2;
+    }
+    .grid-itemWHO {
+        position: relative;
+        bottom: 30%;
+    }
+    .itemTO {
+        grid-column-start: 7;
+        grid-column-end: 8;
+        grid-row-start: 2;
+    }
+    .grid-itemTO {
+        position: relative;
+        bottom: 45%;
+        right: 30%;
+    }
+    .itemDISAGREE {
+        grid-column-start: 6;
+        grid-column-end: 9;
+        grid-row-start: 2;
+    }
+    .grid-itemDISAGREE {
+        position: relative;
+        top: 15%;
+    }
+    .dunkelrot {
+        color: rgb(150, 0, 0)
+    }
+    .weiss {
+        color: aliceblue
+    }
+    .weiss-transparent {
+        color: rgba(240, 248, 255, 0.5)
+    }
+    .font-size-1500 {
+        font-size: 13vw;
+        font-weight: 700;
+    }
+    .font-size-200 {
+        font-size: 2vw;
+        font-weight: 500;
+    }
+    .font-size-500 {
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    .font-size-1300 {
+        font-size: 12vw;
+        font-weight: 300;
+    }
+    .font-size-1400 {
+        font-size: 12.5vw;
+        font-weight: 700;
+    }
+    .font-size-450 {
+        font-size: 4vw;
+        font-weight: 300;
+    }
+    .section2 {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 100vw;
+        height: 30vh;
+        text-align: center;
+        background-color: gray;
+    }
+    .itemI {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .grid-itemI {
+        position: relative;
+        bottom: 12vw;
+    }
+    .itemTRAVEL {
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+    .section2-2 {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 100vw;
+        height: 30vh;
+        text-align: center;
+        background-color: rgb(150, 0, 0);
+    }
+    .itemTHE {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .section2-3 {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 100vw;
+        height: 30vh;
+        text-align: center;
+        background-color: gray;
+    }
+    .itemWORLD {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .section3 {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        background-color: rgb(150, 0, 0);
+    }
+    @keyframes seas {
+        0% {
+            transform: translateX(-100px);
+        }
+        100% {
+            transform: translateX(100px);
+        }
+    }
+    .animationSEAS {
+        animation-name: seas;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    .font-size-SEAS {
+        font-size: 4.5vw;
+        font-weight: 200;
+        text-align: center;
+    }
+    .font-size-SEAS-BOLD {
+        font-size: 4vw;
+        font-weight: 700;
+        text-align: center;
+    }
+    .itemSEAS {
+        grid-column: 1/10;
+        grid-row: 2;
+    }
+    .itemSEAS3 {
+        grid-column: 1/10;
+        grid-row: 4;
+    }
+    .itemSEAS5 {
+        grid-column: 1/3;
+        grid-row: 6;
+        text-align: center;
+    }
+    .itemSEAS5END {
+        grid-column: 8/10;
+        grid-row: 6;
+        text-align: left;
+    }
+    .itemSEAS7 {
+        grid-column: 1/10;
+        grid-row: 8;
+    }
+    .itemSEAS2 {
+        grid-column: 1/10;
+        grid-row: 3;
+        text-align: justify;
+    }
+    .itemSEAS4 {
+        grid-column: 1/10;
+        grid-row: 5;
+        text-align: justify;
+    }
+    .itemSEAS6 {
+        grid-column: 1/10;
+        grid-row: 7;
+        text-align: justify;
+    }
+    .itemEVERYBODY {
+        grid-column: 2/9;
+        grid-row: 6;
+        text-align: center;
+    }
+    .grid-itemEVERBODY {
+        position: relative;
+        right: 3vw;
+    }
+    .section4 {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        background-color: rgb(150, 0, 0);
+    }
+    .font-size-BIG {
+        font-size: 11vw;
+        font-weight: 700;
+        text-align: left;
+    }
+    .font-size-TO {
+        font-size: 35vw;
+        font-weight: 300;
+    }
+    .itemSOME {
+        grid-column: 5/10;
+        grid-row: 1;
+        height: 10vw;
+    }
+    .itemTHEM {
+        grid-column: 5/11;
+        grid-row: 2;
+        height: 10vw;
+    }
+    .itemTO2 {
+        grid-column: 3/9;
+        grid-row: 2;
+        height: 20vw;
+    }
+    .itemUSE {
+        grid-column: 7/9;
+        grid-row: 3;
+        height: 30vw;
+    }
+    .itemUSE2 {
+        grid-column: 7/11;
+        grid-row: 3;
+        height: 3vw;
+    }
+    .itemUSE3 {
+        grid-column: 7/10;
+        grid-row: 3;
+        height: 3vw;
+    }
+    .itemUSE4 {
+        grid-column: 7/10;
+        grid-row: 3;
+        height: 3vw;
+    }
+    .font-size-USE {
+        font-size: 4vw;
+        font-weight: 800;
+        text-align: left;
+    }
+    .grid-itemUSE {
+        position: relative;
+        bottom: 8vw;
+    }
+    .grid-itemUSE2 {
+        position: relative;
+        bottom: 5vw;
+    }
+    .grid-itemUSE3 {
+        position: relative;
+        bottom: 2vw;
+    }
+    .grid-itemUSE4 {
+        position: relative;
+        bottom: -1vw;
+    }
+    @media only screen and (max-width: 600px) {
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+    }
+}

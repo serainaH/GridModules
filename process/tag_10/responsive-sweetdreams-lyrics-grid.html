@@ -8,6 +8,7 @@
     <title>Sweet-Dreams-grid</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: "Teko", sans-serif;
@@ -358,9 +359,154 @@
             bottom: -1vw;
         }
         
+        .section5 {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+            width: 100vw;
+            height: 100vh;
+            text-align: center;
+            background-color: black;
+        }
+        
+        .font-sweet-made {
+            font-size: 7vw;
+        }
+        
+        .font-are-this {
+            font-size: 25vw;
+            text-shadow: +1vw -1vw 0 rgba(165, 3, 3, 0.705)
+        }
+        
+        .itemSWEET {
+            grid-column: 1/7;
+            grid-row: 1;
+            text-align: left;
+        }
+        
+        .itemARE {
+            grid-column: 4;
+            grid-row: 1;
+        }
+        
+        .grid-itemARE {
+            position: relative;
+            bottom: 6vw;
+            right: 8vw;
+        }
+        
+        .itemMADEOF {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+        
+        .grid-itemMADEOF {
+            position: relative;
+            bottom: 20vw;
+            left: 10vw;
+        }
+        
+        .itemTHIS {
+            grid-column: 4;
+            grid-row: 1;
+            transform: rotate(90deg);
+        }
+        
+        .grid-THIS {
+            position: relative;
+            top: 16vw;
+            left: 10vw;
+        }
+        
         @media only screen and (max-width: 600px) {
-            body {
-                background-color: lightblue;
+            .section1 {
+                display: inline-grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                width: 100vw;
+                height: 40vh;
+                text-align: center;
+            }
+            .itemAreMade {
+                grid-column: 1/5;
+                grid-row-start: 1;
+            }
+            .grid-itemAreMAde {
+                position: relative;
+                top: 60%;
+            }
+            .itemWHO {
+                grid-column: 3/7;
+                grid-row-start: 1;
+            }
+            .grid-itemWHO {
+                position: relative;
+                top: 60%;
+            }
+            .itemTO {
+                grid-column-start: 4;
+                grid-column-end: 8;
+                grid-row-start: 1;
+            }
+            .grid-itemTO {
+                position: relative;
+                top: 65%;
+                right: 15%;
+            }
+            .itemDISAGREE {
+                grid-column-start: 2;
+                grid-column-end: 9;
+                grid-row-start: 1;
+            }
+            .grid-itemDISAGREE {
+                position: relative;
+                top: 100%;
+                left: 30%;
+            }
+            .section2 {
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                width: 100vw;
+                height: 10vh;
+                text-align: center;
+                background-color: gray;
+            }
+            .section2-2 {
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                width: 100vw;
+                height: 10vh;
+                text-align: center;
+                background-color: rgb(150, 0, 0);
+            }
+            .section2-3 {
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                width: 100vw;
+                height: 10vh;
+                text-align: center;
+                background-color: gray;
+            }
+            .section3 {
+                display: grid;
+                grid-template-columns: repeat(9, 1fr);
+                grid-template-rows: repeat(12, 1fr);
+                width: 100vw;
+                height: 40vh;
+                text-align: center;
+                background-color: rgb(150, 0, 0);
+            }
+            .section4 {
+                display: grid;
+                grid-template-columns: repeat(10, 1fr);
+                grid-template-rows: repeat(8, 1fr);
+                width: 100vw;
+                height: 30vh;
+                text-align: center;
+                background-color: rgb(150, 0, 0);
             }
         }
     </style>
@@ -487,7 +633,29 @@
 
 
     </DIV>
+    <div class="section5">
 
+        <div class="itemSWEET font-sweet-made weiss">
+            sweet dreams
+        </div>
+        <div class="itemARE font-are-this weiss grid-itemARE">
+            ARE
+        </div>
+        <div class="itemMADEOF font-sweet-made weiss grid-itemMADEOF">
+            made of
+        </div>
+        <div class="itemTHIS font-are-this weiss grid-THIS">
+            THIS
+        </div>
+        <div class="question">
+            ?
+        </div>
+
+
+        <h4 style="color: rgb(122, 122, 122); position: absolute;top:4900px;left: 100px; font-size: 180px;font-weight: 200;">WHO AM I TO DISAGREE</h4>
+
+
+    </div>
 
 
 </body>

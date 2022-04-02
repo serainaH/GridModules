@@ -11,6 +11,7 @@
     <style>
         body {
             font-family: "Teko", sans-serif;
+            background-color: aqua;
         }
         
         @font-face {
@@ -124,7 +125,7 @@
             grid-template-columns: repeat(6, 1fr);
             grid-template-rows: repeat(2, 1fr);
             width: 100vw;
-            height: 90vh;
+            height: 30vh;
             text-align: center;
             background-color: gray;
         }
@@ -144,19 +145,34 @@
             grid-row: 1;
         }
         
+        .section2-2 {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            width: 100vw;
+            height: 30vh;
+            text-align: center;
+            background-color: rgb(150, 0, 0);
+        }
+        
         .itemTHE {
             grid-column: 2;
             grid-row: 2;
         }
         
-        .itemWORLD {
-            grid-column: 1;
-            grid-row: 3;
+        .section2-3 {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            width: 100vw;
+            height: 30vh;
+            text-align: center;
+            background-color: gray;
         }
         
-        .grid-itemWORLD {
-            position: relative;
-            bottom: 4vw;
+        .itemWORLD {
+            grid-column: 1;
+            grid-row: 4;
         }
         
         .section3 {
@@ -341,6 +357,12 @@
             position: relative;
             bottom: -1vw;
         }
+        
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: lightblue;
+            }
+        }
     </style>
 
 
@@ -381,13 +403,23 @@
         <div class="itemTRAVEL weiss font-size-1400">
             travel
         </div>
+
+
+
+
+    </div>
+    <div class="section2-2">
         <div class="itemTHE weiss font-size-1400">
             the
         </div>
+
+
+    </div>
+    <div class="section2-3">
+
         <div class="itemWORLD weiss font-size-1400 grid-itemWORLD">
             world
         </div>
-        <div class="black-wrapper"></div>
 
     </div>
 
