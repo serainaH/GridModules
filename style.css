@@ -1,0 +1,121 @@
+body {
+    font-family: "Teko", sans-serif;
+}
+
+.styletitel {
+    font-size: 3vw;
+    font-weight: 500;
+    color: red;
+}
+
+.section1 {
+    display: inline-grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    width: 100vw;
+    height: 100vh;
+}
+
+.style {
+    font-size: 2vw;
+    color: white;
+}
+
+.boxes {
+    border: 5px;
+    color: rgb(150, 0, 0);
+}
+
+.tag1 {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.tag2 {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.tag3 {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.tag4 {
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.tag5 {
+    grid-row: 5;
+    grid-column: 1;
+}
+
+.tag6 {
+    grid-row: 6;
+    grid-column: 1;
+}
+
+.tag7 {
+    grid-row: 7;
+    grid-column: 1;
+}
+
+.tag8 {
+    grid-row: 8;
+    grid-column: 1;
+}
+
+.tag9 {
+    grid-row: 9;
+    grid-column: 1;
+}
+
+.tag10 {
+    grid-row: 10;
+    grid-column: 1;
+}
+
+.tag11 {
+    grid-row: 11;
+    grid-column: 1;
+}
+
+.tag12 {
+    grid-row: 12;
+    grid-column: 1;
+}
+
+.idee {
+    grid-row: 1;
+    grid-column: 3/6;
+    text-align: left;
+}
+
+.sprint {
+    grid-row: 2;
+    grid-column: 3/6;
+    text-align: left;
+}
+
+.sprint2 {
+    grid-row: 3;
+    grid-column: 3/6;
+    text-align: left;
+}
+
+.sprint3 {
+    grid-row: 4;
+    grid-column: 3/6;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 5vw;
+}
+
+a:hover {
+    color: red;
+}
